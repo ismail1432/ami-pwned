@@ -1,0 +1,28 @@
+{
+  "name": "ami-pwned",
+  "private": true,
+  "version": "0.4.1",
+  "description": "Browser extension checking whether a password appears in Have I Been Pwned breaches (k-anonymity).",
+  "type": "module",
+  "scripts": {
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "dev": "npm run clean && (vite build --watch & vite build --watch -c vite.content.config.ts & wait)",
+    "build": "npm run clean && tsc --noEmit && vite build && vite build -c vite.content.config.ts",
+    "icons": "node scripts/generate-icons.mjs",
+    "package": "npm run build && node scripts/package.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:contract": "HIBP_CONTRACT=1 vitest run src/infrastructure/HibpRangeClient.contract.test.ts",
+    "promo": "node scripts/generate-promo.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/chrome": "^0.0.280",
+    "@types/node": "^26.6.6",
+    "jsdom": "^25.0.1",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}

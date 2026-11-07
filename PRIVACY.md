@@ -33,7 +33,7 @@ The only external service contacted is the Pwned Passwords API of [Have I Been P
 
 ## Open source
 
-The full source code is public: <https://github.com/ismail1432/amipwned>. You can check everything above for yourself.
+The full source code is public: <https://github.com/ismail1432/ami-pwned>. You can check everything above for yourself.
 
 ## Changes
 
@@ -41,4 +41,4 @@ Any change to this policy will be published in this file, with a new "Last updat
 
 ## Contact
 
-Questions or concerns: open an issue at <https://github.com/ismail1432/amipwned/issues>.
+Questions or concerns: open an issue at <https://github.com/ismail1432/ami-pwned/issues>.

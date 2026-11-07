@@ -81,7 +81,7 @@ k-anonymity only protects a password if its prefix is sent **once**. Checking as
 
 ## Install from a release (until it is on the Chrome Web Store)
 
-1. Download `ami-pwned-<version>.zip` from the [latest release](https://github.com/ismail1432/amipwned/releases/latest).
+1. Download `ami-pwned-<version>.zip` from the [latest release](https://github.com/ismail1432/ami-pwned/releases/latest).
 2. Unzip it into a folder you will keep. Chrome loads the extension from that folder, so don't move or delete it.
 3. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the unzipped folder.
 

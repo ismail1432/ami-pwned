@@ -1,7 +1,7 @@
 {
   "name": "ami-pwned",
   "private": true,
-  "version": "0.4.1",
+  "version": "0.1.0",
   "description": "Browser extension checking whether a password appears in Have I Been Pwned breaches (k-anonymity).",
   "type": "module",
   "scripts": {

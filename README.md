@@ -4,7 +4,7 @@
 
 <h1 align="center">Am I Pwned?</h1>
 
-A Chrome extension that tells you, **as soon as you enter a password**, whether it has appeared in a known data breach. It never sends the password anywhere.
+A [Chrome extension](https://chromewebstore.google.com/detail/am-i-pwned/kldienglkkefmjhnaeijpajbidaehaah) that tells you, **as soon as you enter a password**, whether it has appeared in a known data breach. It never sends the password anywhere.
 
 It uses the [Pwned Passwords](https://haveibeenpwned.com/Passwords) service from [Have I Been Pwned](https://haveibeenpwned.com/), and follows the approach of Symfony's [`NotCompromisedPasswordValidator`](https://github.com/symfony/symfony/blob/8.1/src/Symfony/Component/Validator/Constraints/NotCompromisedPasswordValidator.php).
 
